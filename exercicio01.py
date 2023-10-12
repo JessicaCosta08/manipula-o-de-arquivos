@@ -7,4 +7,4 @@ with open('resposta.txt', 'w') as arquivo:
         nomes =  input(f"nomes {cont + 1}: ")
         cont = cont + 1
         arquivo.write(f"nomes {cont + 1}: {pergunta} {nomes}\n") 
-print("Respostas gravadas com sucesso.")
+print("As respostas gravadas.")
